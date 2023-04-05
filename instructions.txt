@@ -1,0 +1,25 @@
+instructions:
+
+To run the script in a terminal, follow these steps:
+
+Open a terminal on your Linux system.
+Navigate to the directory where you saved the script file using the cd command. For example, if you saved the script file in your home directory, you can navigate to it using the command cd ~.
+Make the script executable by running the command chmod +x install_libraries.sh. This command gives the user permission to execute the script.
+Run the script by entering the command ./install_libraries.sh. This will start the installation process.
+The script will download and install the required SDL and TTF libraries automatically. Once the installation is complete, you should see a message indicating that the libraries were installed successfully.
+
+To run the script on Windows, you will need to use a terminal emulator program such as Git Bash, Cygwin, or Windows Subsystem for Linux (WSL). Here's how to run the script on Windows using Git Bash:
+
+Install Git Bash on your Windows system if you haven't already. You can download it from the official Git website: https://git-scm.com/downloads
+Open Git Bash and navigate to the directory where you saved the script file using the cd command. For example, if you saved the script file in your Downloads folder, you can navigate to it using the command cd ~/Downloads.
+Make the script executable by running the command chmod +x install_libraries.sh. This command gives the user permission to execute the script.
+Run the script by entering the command ./install_libraries.sh. This will start the installation process.
+The script will download and install the required SDL and TTF libraries automatically. Once the installation is complete, you should see a message indicating that the libraries were installed successfully.
+
+On Linux, you can use the GCC (GNU Compiler Collection) to compile your C code. Once you have written your code and saved it to a file, you can compile it using a command like:
+gcc my_program.c -o my_program `sdl2-config --cflags --libs` -lSDL2_ttf
+
+This command tells the GCC to compile the source file my_program.c and link it with the SDL and TTF libraries that you installed using the script. It will produce an executable file called my_program.
+
+On Windows, you can use a C compiler like MinGW or Visual Studio to compile your code. Once you have installed the SDL and TTF libraries and written your C code, you can compile it using a command similar to the one above, but with different options for the compiler you are using.
+
